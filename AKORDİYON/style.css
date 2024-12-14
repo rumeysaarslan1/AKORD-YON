@@ -1,0 +1,58 @@
+/* Sayfanın genel stilini özelleştir */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Accordion başlıklarının stilini ayarlama */
+  .accordion-button {
+    background-color: #007bff; /* Petrol mavisi renk */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px; /* Başlık padding */
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #0056b3; /* Aktif durumda olan başlık daha koyu mavi */
+  }
+  
+  /* Accordion içerik kısmı (body) için stil */
+  .accordion-body {
+    background-color: #e9ecef; /* Açık gri arka plan */
+    padding: 15px;
+    border-radius: 6px; /* Köşeleri yuvarlat */
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Sayfa genelinde margin ve padding düzenlemeleri */
+  .container {
+    max-width: 800px; /* Konteynerin genişliğini sınırlama */
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hafif gölge ekleyerek daha modern görünüm */
+  }
+  
+  /* Başlık için stil */
+  h2 {
+    text-align: center;
+    color: #007bff; /* Başlık rengi petrol mavisi */
+    margin-bottom: 30px;
+  }
+  
+  /* Accordion panel başlıklarına hover efekti */
+  .accordion-button:hover {
+    background-color: #0069d9; /* Hover efekti */
+  }
+  
+  /* Accordion açıldığında içerik kısmı için daha fazla padding */
+  .accordion-collapse.show .accordion-body {
+    padding: 20px;
+  }
+  
